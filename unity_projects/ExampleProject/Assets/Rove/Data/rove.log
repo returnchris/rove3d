@@ -1,0 +1,149 @@
+Rove3D v.0.1.0
+---
+Checking system.
+Windows.
+CPU threads: 4.
+Multiple GPU devices: Enabled.
+Integrated GPU device: Disabled.
+Optimization level: Speed.
+Graphics API: Direct3D 11.
+2557 x 982
+Setting up thread pool.
+Compute API: OpenCL.
+1 platform(s) found.
+--- Platform: 0.
+Vendor: Advanced Micro Devices, Inc..
+Name: AMD Accelerated Parallel Processing.
+OpenCL Version: 2.000000 (OpenCL 2.0 AMD-APP (2442.9)).
+KHR platform detected.
+1 device(s) found.
+Using KHR-specific D3D11 extensions.
+Display device index: 0.
+Creating D3D sharing display device context.
+---
+--- Device (Display): 0.
+Vendor: Advanced Micro Devices, Inc..
+Discrete GPU detected.
+Name: Ellesmere.
+OpenCL Version: 2.000000 (OpenCL 2.0 AMD-APP (2442.9)).
+Compute units: 36.
+Global memory: 8.00 GB.
+Local memory: 32.00 KB.
+Max image size: 16384 x 16384.
+Max image buffer width: 33554432.
+Creating program.
+Building program.
+Build was successful, creating kernels.
+Kernels created successfully.
+Creating output target on display device from D3D11 Texture.
+Creating device target.
+Setting display device target as root compositing target.
+Allocating device ray states: 354.41 MB.
+Availability: AVAILABLE.
+---
+Setting up tree.
+Allocating dummy buffers/images.
+Allocating dummy buffers/images.
+Allocating dummy buffers/images.
+Allocating dummy buffers/images.
+Allocating dummy buffers/images.
+Setting up scene.
+Allocating albedo atlas on device: 0, with size: 1 x 1.
+Allocating normal atlas on device: 0, with size: 1 x 1.
+Allocating metallic atlas on device: 0, with size: 1 x 1.
+Allocating emission atlas on device: 0, with size: 1 x 1.
+Allocating environment map on device: 0, with size: 1 x 1.
+Setting up physical sky.
+Creating default material.
+Resetting the field of view.
+Rove3D setup successful with 1 available device(s).
+---
+Resizing targets.
+2557 x 982
+Shutting down targets for device: 0.
+Creating output target on display device from D3D11 Texture.
+Creating device target.
+Setting display device target as root compositing target.
+Allocating device ray states: 354.41 MB.
+---
+Resetting the field of view.
+Allocating environment map on device: 0, with size: 2048 x 1024.
+Importing mesh: 515 vertices, 768 triangles. Has normals. Has tangents. Has UVs.
+Allocating pinned host DBuffer: 0.16 MB.
+Allocating non-pinned host DBuffer: 0.50 MB.
+Triangle offset: 0, node offset: 0.
+Defining sub-mesh: 0, from triangles 0 to 768.
+Allocating pinned host DBuffer: 0.00 MB.
+Importing mesh: 515 vertices, 768 triangles. Has normals. Has tangents. Has UVs.
+Allocating pinned host DBuffer: 0.33 MB.
+Allocating non-pinned host DBuffer: 1.00 MB.
+Triangle offset: 768, node offset: 4608.
+Defining sub-mesh: 0, from triangles 0 to 768.
+Importing mesh: 515 vertices, 768 triangles. Has normals. Has tangents. Has UVs.
+Allocating non-pinned host DBuffer: 0.66 MB.
+Triangle offset: 1536, node offset: 9216.
+Defining sub-mesh: 0, from triangles 0 to 768.
+Allocating pinned host DBuffer: 0.00 MB.
+Importing mesh: 4 vertices, 2 triangles. Has normals. Has tangents. Has UVs.
+Triangle offset: 2304, node offset: 13824.
+Defining sub-mesh: 0, from triangles 0 to 2.
+Importing mesh: 515 vertices, 768 triangles. Has normals. Has tangents. Has UVs.
+Allocating non-pinned host DBuffer: 2.00 MB.
+Triangle offset: 2306, node offset: 13836.
+Defining sub-mesh: 0, from triangles 0 to 768.
+Importing mesh: 515 vertices, 768 triangles. Has normals. Has tangents. Has UVs.
+Triangle offset: 3074, node offset: 18444.
+Defining sub-mesh: 0, from triangles 0 to 768.
+Allocating albedo atlas on device: 0, with size: 4 x 4.
+Allocating normal atlas on device: 0, with size: 4 x 4.
+Allocating metallic atlas on device: 0, with size: 4 x 4.
+Allocating emission atlas on device: 0, with size: 4 x 4.
+Allocating image device flip DBuffer: 0.66 MB on device: 0.
+DBuffer image has: 172032 pixels.
+Allocating image device flip DBuffer: 2.00 MB on device: 0.
+DBuffer image has: 524288 pixels.
+Allocating pinned host DBuffer: 0.01 MB.
+Allocating non-image device flip DBuffer: 0.00 MB on device: 0.
+Allocating non-image device flip DBuffer: 0.01 MB on device: 0.
+Allocating non-image device flip DBuffer: 0.00 MB on device: 0.
+Allocating non-image device flop DBuffer: 0.00 MB on device: 0.
+Allocating non-image device flop DBuffer: 0.01 MB on device: 0.
+Allocating non-image device flop DBuffer: 0.00 MB on device: 0.
+---
+Shutting down.
+Shutting down thread pool.
+Shutting down scene.
+Freeing mesh memory: 515 vertices, 768 triangles.
+Freeing mesh memory: 515 vertices, 768 triangles.
+Freeing mesh memory: 515 vertices, 768 triangles.
+Freeing mesh memory: 4 vertices, 2 triangles.
+Freeing mesh memory: 515 vertices, 768 triangles.
+Freeing mesh memory: 515 vertices, 768 triangles.
+Shutting down tree.
+Shutting down DBuffer.
+Freeing flip DBuffer: 0.66 MB on device: 0.
+Freeing dummy buffers/images.
+Freeing host DBuffer: 0.66 MB.
+Shutting down DBuffer.
+Freeing flip DBuffer: 2.00 MB on device: 0.
+Freeing dummy buffers/images.
+Freeing host DBuffer: 2.00 MB.
+Shutting down DBuffer.
+Freeing flip DBuffer: 0.00 MB on device: 0.
+Freeing flop DBuffer: 0.00 MB on device: 0.
+Freeing dummy buffers/images.
+Freeing host DBuffer: 0.00 MB.
+Shutting down DBuffer.
+Freeing flip DBuffer: 0.01 MB on device: 0.
+Freeing flop DBuffer: 0.01 MB on device: 0.
+Freeing dummy buffers/images.
+Freeing host DBuffer: 0.01 MB.
+Shutting down DBuffer.
+Freeing flip DBuffer: 0.00 MB on device: 0.
+Freeing flop DBuffer: 0.00 MB on device: 0.
+Freeing dummy buffers/images.
+Freeing host DBuffer: 0.00 MB.
+Shutting down targets for device: 0.
+Shutting down device: 0.
+---
+Thank you for using Rove3D.
